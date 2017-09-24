@@ -56,4 +56,9 @@ public class Book {
     public String getISBNNumber() {
         return ISBNNumber;
     }
+
+    @Override
+    public String toString() {
+        return title + ", " + author + ", " + ISBNNumber + ", " + releaseDate;
+    }
 }

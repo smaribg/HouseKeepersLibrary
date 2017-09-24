@@ -3,8 +3,20 @@ package is.ru.honn.library.models;
 import java.util.Date;
 
 public class Loan {
+
+    /**
+     * The ID of the customer in the database
+     */
     public int customerId;
+
+    /**
+     * The ID of the book in the database
+     */
     public int bookId;
+
+    /**
+     * The date that the book was loaned
+     */
     public Date loanDate;
 
     public int getCustomerId() {
