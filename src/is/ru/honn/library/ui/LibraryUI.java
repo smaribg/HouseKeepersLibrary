@@ -5,7 +5,11 @@ import is.ru.honn.library.models.Customer;
 import is.ru.honn.library.models.Loan;
 import is.ru.honn.library.services.LibraryServiceInterface;
 
+import javax.print.attribute.standard.DateTimeAtCreation;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -96,6 +100,22 @@ public class LibraryUI {
 
 
         service.addBook(b);
+    }
+    private void addLoan()
+    {
+        Loan l = new Loan();
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter customer ID: ");
+        l.setCustomerId(sc.nextInt());
+
+        System.out.print("Enter book ID: ");
+        l.setBookId(sc.nextInt());
+
+
+
+        l.setLoanDate(LocalDateTime.now());
+        service.addLoan(l);
     }
 
     private void addLoan(){

@@ -40,7 +40,8 @@ public class LibraryService implements LibraryServiceInterface {
 
     @Override
     public Loan addLoan(Loan loan) {
-        return null;
+        repo.createLoan(loan);
+        return loan;
     }
 
     @Override
