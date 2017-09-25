@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f595b9b-6194-4abd-897f-24a2874a73ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/json-simple-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.20.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/is/ru/honn/library/repository/DataBaseConnection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Books.json" afterPath="$PROJECT_DIR$/Books.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Users.json" afterPath="$PROJECT_DIR$/Users.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HousekeepersLibrary/is/ru/honn/library/LibraryRunner.class" afterPath="$PROJECT_DIR$/out/production/HousekeepersLibrary/is/ru/honn/library/LibraryRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HousekeepersLibrary/is/ru/honn/library/services/LibraryService.class" afterPath="$PROJECT_DIR$/out/production/HousekeepersLibrary/is/ru/honn/library/services/LibraryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HousekeepersLibrary/is/ru/honn/library/ui/LibraryUI.class" afterPath="$PROJECT_DIR$/out/production/HousekeepersLibrary/is/ru/honn/library/ui/LibraryUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HousekeepersLibrary/is/ru/honn/library/repository/LibraryRepo.class" afterPath="$PROJECT_DIR$/out/production/HousekeepersLibrary/is/ru/honn/library/repository/LibraryRepo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/431f2fa3-bd12-434a-8ae8-817106ec384f.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/431f2fa3-bd12-434a-8ae8-817106ec384f.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HousekeepersLibrary.iml" afterPath="$PROJECT_DIR$/HousekeepersLibrary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/is/ru/honn/library/LibraryRunner.java" afterPath="$PROJECT_DIR$/src/is/ru/honn/library/LibraryRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/is/ru/honn/library/models/Book.java" afterPath="$PROJECT_DIR$/src/is/ru/honn/library/models/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.db" afterPath="$PROJECT_DIR$/data.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/is/ru/honn/library/models/Customer.java" afterPath="$PROJECT_DIR$/src/is/ru/honn/library/models/Customer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/is/ru/honn/library/repository/LibraryRepo.java" afterPath="$PROJECT_DIR$/src/is/ru/honn/library/repository/LibraryRepo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/is/ru/honn/library/services/LibraryService.java" afterPath="$PROJECT_DIR$/src/is/ru/honn/library/services/LibraryService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/is/ru/honn/library/ui/LibraryUI.java" afterPath="$PROJECT_DIR$/src/is/ru/honn/library/ui/LibraryUI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,18 +36,47 @@
         <item name="data.db" type="e3449647:DbNodeDescriptor" />
         <item name="main" type="e3449647:DbNodeDescriptor" />
       </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="data.db" type="e3449647:DbNodeDescriptor" />
+        <item name="main" type="e3449647:DbNodeDescriptor" />
+        <item name="Customers" type="e3449647:DbNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="HousekeepersLibrary.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HousekeepersLibrary.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LibraryUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/ui/LibraryUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="85" column="17" lean-forward="false" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+            <state relative-caret-position="798">
+              <caret line="73" column="30" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/models/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+              <folding>
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,66 +94,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/431f2fa3-bd12-434a-8ae8-817106ec384f/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LibraryRepo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/repository/LibraryRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+            <state relative-caret-position="2961">
+              <caret line="141" column="4" lean-forward="false" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1506349855555" expanded="true" signature="1028:1163" ph="insert into Books... " />
-                <marker date="1506349855555" expanded="true" signature="1028:1164" ph="insert into Books... " />
-                <marker date="1506349855555" expanded="true" signature="1028:1175" ph="insert into Books... " />
+                <marker date="1506353098483" expanded="true" signature="1072:1207" ph="insert into Books... " />
+                <marker date="1506353098483" expanded="true" signature="1072:1208" ph="insert into Books... " />
+                <marker date="1506353098483" expanded="true" signature="1072:1219" ph="insert into Books... " />
+                <marker date="1506353098483" expanded="true" signature="1638:1777" ph="insert into Customers... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Books.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Books.json">
+      <file leaf-file-name="Customers" pinned="false" current-in-tab="false">
+        <entry file="das://src:table:/1478af57/431f2fa3-bd12-434a-8ae8-817106ec384f/main.Customers">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/LibraryRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/models/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-                <element signature="e#1535#1536#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="Users" pinned="false" current-in-tab="false">
+        <entry file="das://table:/1478af57/431f2fa3-bd12-434a-8ae8-817106ec384f/main.Users">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -166,12 +155,17 @@
         <option value="$PROJECT_DIR$/src/is/ru/honn/library/models/Loan.java" />
         <option value="$PROJECT_DIR$/src/is/ru/honn/library/models/LibraryRunner.java" />
         <option value="$PROJECT_DIR$/src/is/ru/honn/library/services/LibraryServiceInterface.java" />
-        <option value="$PROJECT_DIR$/src/is/ru/honn/library/models/Customer.java" />
         <option value="$PROJECT_DIR$/src/is/ru/honn/library/services/LibraryService.java" />
         <option value="$PROJECT_DIR$/src/is/ru/honn/library/LibraryRunner.java" />
-        <option value="$PROJECT_DIR$/src/is/ru/honn/library/ui/LibraryUI.java" />
         <option value="$PROJECT_DIR$/src/is/ru/honn/library/repository/DataBaseConnection.java" />
         <option value="$PROJECT_DIR$/src/is/ru/honn/library/models/Book.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="src:table:/1478af57/431f2fa3-bd12-434a-8ae8-817106ec384f/main.Books" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/431f2fa3-bd12-434a-8ae8-817106ec384f/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/431f2fa3-bd12-434a-8ae8-817106ec384f/console_2.sql" />
+        <option value="$PROJECT_DIR$/src/is/ru/honn/library/models/Customer.java" />
+        <option value="$PROJECT_DIR$/src/is/ru/honn/library/ui/LibraryUI.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/431f2fa3-bd12-434a-8ae8-817106ec384f/console.sql" />
         <option value="$PROJECT_DIR$/src/is/ru/honn/library/repository/LibraryRepo.java" />
       </list>
     </option>
@@ -209,6 +203,11 @@
             <path>
               <item name="HousekeepersLibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="HousekeepersLibrary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HousekeepersLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HousekeepersLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HousekeepersLibrary" type="b2602c69:ProjectViewProjectNode" />
@@ -387,12 +386,12 @@
       <workItem from="1506268022265" duration="7910000" />
       <workItem from="1506335935926" duration="1424000" />
       <workItem from="1506340339274" duration="1751000" />
-      <workItem from="1506344490737" duration="5380000" />
+      <workItem from="1506344490737" duration="8586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19828000" />
+    <option name="totallyTimeSpent" value="23034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -408,11 +407,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32785088" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.063596494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895833" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -439,42 +439,11 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/ui/LibraryUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/services/LibraryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/repository/LibraryRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1506349855555" expanded="true" signature="1028:1163" ph="insert into Books... " />
-            <marker date="1506349855555" expanded="true" signature="1028:1164" ph="insert into Books... " />
-            <marker date="1506349855555" expanded="true" signature="1028:1175" ph="insert into Books... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/LibraryRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -499,6 +468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -569,6 +539,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -639,6 +610,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -681,6 +653,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,26 +707,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/models/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="59" column="72" lean-forward="false" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/services/LibraryServiceInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HousekeepersLibrary.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -787,22 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Books.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/431f2fa3-bd12-434a-8ae8-817106ec384f/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/models/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -818,13 +760,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/ui/LibraryUI.java">
+    <entry file="file://$PROJECT_DIR$/HousekeepersLibrary.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="85" column="17" lean-forward="false" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1478af57/431f2fa3-bd12-434a-8ae8-817106ec384f/main.Books">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/1478af57/431f2fa3-bd12-434a-8ae8-817106ec384f/main.Books">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Books.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="491" column="31" lean-forward="false" selection-start-line="491" selection-start-column="31" selection-end-line="491" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/431f2fa3-bd12-434a-8ae8-817106ec384f/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/431f2fa3-bd12-434a-8ae8-817106ec384f/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -838,15 +825,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/repository/LibraryRepo.java">
+    <entry file="das://table:/1478af57/431f2fa3-bd12-434a-8ae8-817106ec384f/main.Users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/models/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        <state relative-caret-position="604">
+          <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+          <folding>
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/ui/LibraryUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="73" column="30" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1506349855555" expanded="true" signature="1028:1163" ph="insert into Books... " />
-            <marker date="1506349855555" expanded="true" signature="1028:1164" ph="insert into Books... " />
-            <marker date="1506349855555" expanded="true" signature="1028:1175" ph="insert into Books... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1478af57/431f2fa3-bd12-434a-8ae8-817106ec384f/main.Customers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/1478af57/431f2fa3-bd12-434a-8ae8-817106ec384f/main.Customers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/431f2fa3-bd12-434a-8ae8-817106ec384f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/is/ru/honn/library/repository/LibraryRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2961">
+          <caret line="141" column="4" lean-forward="false" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506353098483" expanded="true" signature="1072:1207" ph="insert into Books... " />
+            <marker date="1506353098483" expanded="true" signature="1072:1208" ph="insert into Books... " />
+            <marker date="1506353098483" expanded="true" signature="1072:1219" ph="insert into Books... " />
+            <marker date="1506353098483" expanded="true" signature="1638:1777" ph="insert into Customers... " />
           </folding>
         </state>
       </provider>

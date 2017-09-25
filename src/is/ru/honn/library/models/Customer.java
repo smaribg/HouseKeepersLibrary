@@ -21,7 +21,16 @@ public class Customer {
     /**
      * The phone number of the customer
      */
-    public String phoneNumber;
+
+    public Customer(){
+
+    }
+    public Customer(int id, String name, String address, String email){
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.email = email;
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -47,16 +56,8 @@ public class Customer {
         return email;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
     @Override
     public String toString() {
-        return name + ", " + address + ", " + email + ", " + phoneNumber;
+        return name + ", " + address + ", " + email;
     }
 }

@@ -73,9 +73,6 @@ public class LibraryUI {
         System.out.print("Enter email: ");
         c.setEmail(sc.next());
 
-        System.out.print("Enter phoneNumber: ");
-        c.setPhoneNumber(sc.next());
-
         service.addCustomer(c);
     }
 
