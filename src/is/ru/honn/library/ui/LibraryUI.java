@@ -2,6 +2,7 @@ package is.ru.honn.library.ui;
 
 import is.ru.honn.library.models.Book;
 import is.ru.honn.library.models.Customer;
+import is.ru.honn.library.models.Loan;
 import is.ru.honn.library.services.LibraryServiceInterface;
 
 import java.io.IOException;
@@ -46,6 +47,7 @@ public class LibraryUI {
                 addBook();
                 break;
             case 3:
+                addLoan();
                 break;
             case 4:
                 break;
@@ -76,9 +78,6 @@ public class LibraryUI {
         service.addCustomer(c);
     }
 
-    /** Please enter the information in this format:
-     *  {name},{address},{email,phonenumber
-     */
     private void addBook(){
         Book b = new Book();
         Scanner sc = new Scanner(System.in);
@@ -92,11 +91,24 @@ public class LibraryUI {
         System.out.print("Enter ISBN number: ");
         b.setISBNNumber(sc.next());
 
-        System.out.print("Enter releaseDate: ");
-        //b.setReleaseDate(sc.next());
-        //T
+        System.out.print("Enter releaseDate (YYYY-MM-DD): ");
+        //TODO fix dates: b.setReleaseDate(sc.next());
+
 
         service.addBook(b);
+    }
+
+    private void addLoan(){
+        Loan l = new Loan();
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter id of book: ");
+        l.setBookId(Integer.parseInt(sc.next()));
+
+        System.out.print("Enter id of person: ");
+        l.setCustomerId(Integer.parseInt(sc.next()));
+
+        service.addLoan(l);
     }
 
     private void printMenu(){

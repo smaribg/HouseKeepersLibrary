@@ -25,7 +25,6 @@ public class LibraryRepo {
 
     public LibraryRepo(DataBaseConnection db){
         this.db = db.getConnection();
-        readFromJSON2();
     }
 
     public Book addBook(Book book){
@@ -139,7 +138,7 @@ public class LibraryRepo {
             e.printStackTrace();
         }
     }*/
-    
+
     private String getValuesFromBook(Book b){
         return "'" + b.getTitle() + "',"
                 + "'" + b.getAuthor().replaceAll("'","") + "',"

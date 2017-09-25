@@ -13,32 +13,29 @@ public class LibraryService implements LibraryServiceInterface {
 
     private LibraryRepo repo;
 
-    List<Customer> customers = new ArrayList<Customer>();
-    List<Book> books = new ArrayList<Book>();
-
     public LibraryService(LibraryRepo repo){
         this.repo = repo;
     }
     @Override
     public Customer addCustomer(Customer customer) {
-        customers.add(customer);
+        repo.addCustomer(customer);
         return customer;
     }
 
     @Override
     public List<Customer> getCustomers() {
-        return customers;
+        return null;
     }
 
     @Override
     public Book addBook(Book book) {
-        books.add(book);
+        repo.addBook(book);
         return book;
     }
 
     @Override
     public List<Book> getBooks() {
-        return books;
+        return null;
     }
 
     @Override
