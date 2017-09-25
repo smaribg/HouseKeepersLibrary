@@ -101,22 +101,6 @@ public class LibraryUI {
 
         service.addBook(b);
     }
-    private void addLoan()
-    {
-        Loan l = new Loan();
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter customer ID: ");
-        l.setCustomerId(sc.nextInt());
-
-        System.out.print("Enter book ID: ");
-        l.setBookId(sc.nextInt());
-
-
-
-        l.setLoanDate(LocalDateTime.now());
-        service.addLoan(l);
-    }
 
     private void addLoan(){
         Loan l = new Loan();
