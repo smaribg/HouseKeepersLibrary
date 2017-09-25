@@ -2,6 +2,7 @@ package is.ru.honn.library.repository;
 
 import is.ru.honn.library.models.Book;
 import is.ru.honn.library.models.Customer;
+import is.ru.honn.library.models.Loan;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -11,9 +12,7 @@ import javax.swing.plaf.nimbus.State;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -25,7 +24,7 @@ public class LibraryRepo {
 
     public LibraryRepo(DataBaseConnection db){
         this.db = db.getConnection();
-        readFromJSON2();
+        //readFromJSON2();
     }
 
     public Book addBook(Book book){
@@ -57,6 +56,22 @@ public class LibraryRepo {
                     "("+values+")");
             return customer;
         } catch (SQLException e) {
+            System.out.print(e.getMessage());
+            return null;
+        }
+    }
+    public Loan createLoan(Loan loan){
+        try{
+            Statement sm = db.createStatement();
+            sm.setQueryTimeout(30);  // set timeout to 30 sec.
+            ResultSet costumerToLoan = sm.executeQuery("select * from Customers where id = " + loan.getCustomerId());
+            ResultSet bookToLoan = sm.executeQuery("select * from Books where id = " + loan.getBookId());
+
+            System.out.println("Customer loaned: " + costumerToLoan.getString(3));
+            System.out.println("Book loaned: " + bookToLoan.getString(2));
+            System.out.println("Date loaned: " + loan.getLoanDate());
+            return loan;
+        }catch(SQLException e) {
             System.out.print(e.getMessage());
             return null;
         }
@@ -153,4 +168,5 @@ public class LibraryRepo {
                 + "'" + c.getEmail() + "'";
 
     }
+
 }

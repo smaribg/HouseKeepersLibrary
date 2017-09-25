@@ -1,5 +1,6 @@
 package is.ru.honn.library.models;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class Loan {
@@ -17,7 +18,7 @@ public class Loan {
     /**
      * The date that the book was loaned
      */
-    public Date loanDate;
+    public LocalDateTime loanDate;
 
     public int getCustomerId() {
         return customerId;
@@ -35,11 +36,11 @@ public class Loan {
         this.bookId = bookId;
     }
 
-    public Date getLoanDate() {
+    public LocalDateTime getLoanDate() {
         return loanDate;
     }
 
-    public void setLoanDate(Date loanDate) {
+    public void setLoanDate(LocalDateTime loanDate) {
         this.loanDate = loanDate;
     }
 }

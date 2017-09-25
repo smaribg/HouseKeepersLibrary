@@ -21,7 +21,7 @@ public class LibraryService implements LibraryServiceInterface {
     }
     @Override
     public Customer addCustomer(Customer customer) {
-        customers.add(customer);
+        repo.addCustomer(customer);
         return customer;
     }
 
@@ -32,7 +32,7 @@ public class LibraryService implements LibraryServiceInterface {
 
     @Override
     public Book addBook(Book book) {
-        books.add(book);
+        repo.addBook(book);
         return book;
     }
 
@@ -43,7 +43,8 @@ public class LibraryService implements LibraryServiceInterface {
 
     @Override
     public Loan addLoan(Loan loan) {
-        return null;
+        repo.createLoan(loan);
+        return loan;
     }
 
     @Override
