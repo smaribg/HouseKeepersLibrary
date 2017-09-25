@@ -9,6 +9,10 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * This service is between the UI and repo, functions are called in the UI
+ * The function of the service is to insert and retrieve data into the database
+ */
 public class LibraryService implements LibraryServiceInterface {
 
     private LibraryRepo repo;

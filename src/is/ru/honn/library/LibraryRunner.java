@@ -8,6 +8,13 @@ import is.ru.honn.library.ui.LibraryUI;
 
 import java.sql.SQLException;
 
+/**
+ * Housekeepers library
+ * A system that registers books and loans them to customers
+ * @Author Andri Karel Júlíusson
+ * @Author Smári Björn Gunnarsson
+ * This project is an assignment for Software design and development
+ */
 public class LibraryRunner {
     public static void main(String[] args) throws SQLException {
         DataBaseConnection db = new DataBaseConnection();

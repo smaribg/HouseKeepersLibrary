@@ -26,6 +26,11 @@ public class LibraryRepo {
         this.db = db.getConnection();
     }
 
+    /**
+     * add a book to the system, requires title,author,release date and ISBN
+     * @param book
+     * @return
+     */
     public Book addBook(Book book){
         String values = getValuesFromBook(book);
         try {
@@ -44,6 +49,11 @@ public class LibraryRepo {
         }
     }
 
+    /**
+     * adds a customer to the system, requires name,address and email
+     * @param customer
+     * @return
+     */
     public Customer addCustomer(Customer customer){
         String values = getValuesFromCustomer(customer);
         try {
@@ -59,6 +69,12 @@ public class LibraryRepo {
             return null;
         }
     }
+
+    /**
+     * loan a book to a user, requires a userID and bookID
+     * @param loan
+     * @return
+     */
     public Loan createLoan(Loan loan){
         try{
             Statement sm = db.createStatement();

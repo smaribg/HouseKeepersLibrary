@@ -7,6 +7,9 @@ import is.ru.honn.library.models.Loan;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Service interface, includes all the main functions a service must implement
+ */
 public interface LibraryServiceInterface {
     Customer addCustomer(Customer customer);
     List<Customer> getCustomers();

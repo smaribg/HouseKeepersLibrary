@@ -13,6 +13,11 @@ import java.util.Date;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * user interface, gives the user 4 actions to perform.
+ * Add a book, add a user, loan a book and generate report
+ * This class connects to the Library service
+ */
 public class LibraryUI {
     private LibraryServiceInterface service;
 
