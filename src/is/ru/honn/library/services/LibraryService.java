@@ -3,6 +3,7 @@ package is.ru.honn.library.services;
 import is.ru.honn.library.models.Book;
 import is.ru.honn.library.models.Customer;
 import is.ru.honn.library.models.Loan;
+import is.ru.honn.library.repository.LibraryRepo;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -10,9 +11,14 @@ import java.util.List;
 
 public class LibraryService implements LibraryServiceInterface {
 
+    private LibraryRepo repo;
+
     List<Customer> customers = new ArrayList<Customer>();
     List<Book> books = new ArrayList<Book>();
 
+    public LibraryService(LibraryRepo repo){
+        this.repo = repo;
+    }
     @Override
     public Customer addCustomer(Customer customer) {
         customers.add(customer);

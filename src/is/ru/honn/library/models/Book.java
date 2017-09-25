@@ -25,6 +25,24 @@ public class Book {
      */
     public String ISBNNumber;
 
+    public Book(){
+
+    }
+    public Book(int id,String title, String author, Date releaseDate, String ISBNNumber){
+        this.id = id;
+        this.title = title;
+        this.author = author;
+        this.releaseDate = releaseDate;
+        this.ISBNNumber = ISBNNumber;
+    }
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public void setTitle(String title) {
         this.title = title;
     }
@@ -59,6 +77,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return title + ", " + author + ", " + ISBNNumber + ", " + releaseDate;
+        return title + ", " + author + ", " + releaseDate + ", " + ISBNNumber;
     }
 }

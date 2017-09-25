@@ -9,10 +9,10 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class LibraryUI {
-    private LibraryServiceInterface _service;
+    private LibraryServiceInterface service;
 
     public LibraryUI(LibraryServiceInterface ls){
-        _service = ls;
+        service = ls;
     }
 
     public void start(){
@@ -50,10 +50,10 @@ public class LibraryUI {
             case 4:
                 break;
             case 5:
-                for (Customer c :_service.getCustomers()) {
+                for (Customer c :service.getCustomers()) {
                     System.out.println(c + ", ");
                 }
-                for (Book b :_service.getBooks()) {
+                for (Book b :service.getBooks()) {
                     System.out.println(b + ", ");
                 }
                 break;
@@ -76,9 +76,12 @@ public class LibraryUI {
         System.out.print("Enter phoneNumber: ");
         c.setPhoneNumber(sc.next());
 
-        _service.addCustomer(c);
+        service.addCustomer(c);
     }
 
+    /** Please enter the information in this format:
+     *  {name},{address},{email,phonenumber
+     */
     private void addBook(){
         Book b = new Book();
         Scanner sc = new Scanner(System.in);
@@ -94,8 +97,9 @@ public class LibraryUI {
 
         System.out.print("Enter releaseDate: ");
         //b.setReleaseDate(sc.next());
+        //T
 
-        _service.addBook(b);
+        service.addBook(b);
     }
 
     private void printMenu(){
